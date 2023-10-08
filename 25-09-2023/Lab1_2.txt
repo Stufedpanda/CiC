@@ -1,0 +1,11 @@
+Locker
+
+Ask user for locker number
+if locker number does not exist, ask user again
+if locker does not have items, place items in locker
+
+Grocery
+Ask user to create grocery list
+for each item in list
+if item belongs to category, mark item as part of that category
+group matching categories together within the list.
