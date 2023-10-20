@@ -1,29 +1,148 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Stufedpanda's Osu Portfolio</title>
-</head>
-<body>
-    <!-- Your content goes here -->
+  </head>
+  <body>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        I'm a 21 yr old washed up osu player. This website will just document
+        some cool things I did at the peak of my osu career.
+      </p>
+    </section>
     <h1>Achievements</h1>
     <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#plays">Plays</a></li>
-        <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#plays">Plays</a></li>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#notable_plays">Notable Plays</a></li>
+      <li><a href="#form">Form</a></li>
+      <li><a href="#links">Links</a></li>
     </ul>
-    <section id="about">
-        <h1>About Me</h1>
-        <p>I'm a 21 yr old washed up osu player. This website will just document some cool things I did at the peak of my osu career.</p>
-    </section>
     <section id="plays">
-        <h1>Plays</h1>
-        <p>Here I will link videos and images of my top plays, cool maps, good runs, chokes etc.</p>
-        <h3>One of my Plays</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/R8dxONg6qyk?si=kY-fo-Bc6t9k8R8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h1>Plays</h1>
+      <p>
+        Here I will link videos and images of my top plays, cool maps, good
+        runs, chokes etc.
+      </p>
+      <h3>One of my Plays</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/R8dxONg6qyk?si=Xyvar5Yq8pAe1lA2"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <h3>Another Play</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/BlOCV66Ehj8?si=pTp2kU4bEykmmLOj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </section>
-    <section id="Screenshots">
-        <h1>Screenshots</h1>
-        <p>This section will be where I store screenshots of plays, achievements, milestones and more.</p>
+    <section id="screenshots">
+      <h1>Screenshots</h1>
+      <p>
+        This section will be where I store screenshots of plays, achievements,
+        milestones and more.
+      </p>
+      <h3>One of my Achievements</h3>
+      <img
+        width="1000"
+        src="\screenshot005.jpg"
+        alt="Screenshot of an achievement"
+      />
+      <h3>
+        A screenshot of completing a map with a full combo, but having the no
+        fail modifier on
+      </h3>
+      <img
+        width="1000"
+        src="\screenshot086.jpg"
+        alt="Screenshot of a full combo with no fail"
+      />
     </section>
-</body>
+
+    <section id="notable_plays">
+      <h1>Top 5 Plays (Based on PP Earned)</h1>
+      <table border="1">
+        <tr>
+          <th>Osu Map</th>
+          <th>Accuracy (%)</th>
+          <th>Score</th>
+          <th>PP</th>
+        </tr>
+        <tr>
+          <td>Colors Power ni Omakasero!</td>
+          <td>100</td>
+          <td>6,476,646</td>
+          <td>295</td>
+        </tr>
+        <tr>
+          <td>Blooming Lily</td>
+          <td>98.59</td>
+          <td>5,852,241</td>
+          <td>292</td>
+        </tr>
+        <tr>
+          <td>Amazing sky</td>
+          <td>99.10</td>
+          <td>6,119,492</td>
+          <td>291</td>
+        </tr>
+        <tr>
+          <td>Bull's Eye</td>
+          <td>98.23</td>
+          <td>5,555,928</td>
+          <td>287</td>
+        </tr>
+        <tr>
+          <td>Monochrome Butterfly</td>
+          <td>99.13</td>
+          <td>4,774,454</td>
+          <td>284</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="form">
+      <h1>Random form that emails a message</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="phone" id="phone" name=:"phone" required>
+        <br />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea>
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- <section id="links">
+        <h1>Links</h1>
+    </section> -->
+  </body>
 </html>
